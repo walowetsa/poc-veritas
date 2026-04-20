@@ -56,7 +56,7 @@ export default function DashboardPage() {
     } else {
       generateDashboard(active.id, active.data);
     }
-  });
+  }, []);
 
   return (
     <div className="px-10 py-10 space-y-8">
